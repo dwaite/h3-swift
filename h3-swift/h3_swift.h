@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "h3/src/h3lib/include/h3api.h"
 
 //! Project version number for h3_swift.
 FOUNDATION_EXPORT double h3_swiftVersionNumber;
