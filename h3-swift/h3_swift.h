@@ -6,8 +6,13 @@
 //  Copyright © 2018 David Van Duzer. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
-#import "h3/src/h3lib/include/h3api.h"
+#else
+#import <AppKit/AppKit.h>
+#endif
+
+#import "h3api.h"
 
 //! Project version number for h3_swift.
 FOUNDATION_EXPORT double h3_swiftVersionNumber;

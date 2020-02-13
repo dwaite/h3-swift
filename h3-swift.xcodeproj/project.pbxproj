@@ -24,8 +24,7 @@
 		63811E3023F4920500F3B055 /* coordijk.h in Headers */ = {isa = PBXBuildFile; fileRef = 63811E0D23F4920500F3B055 /* coordijk.h */; };
 		63811E3123F4920500F3B055 /* localij.h in Headers */ = {isa = PBXBuildFile; fileRef = 63811E0E23F4920500F3B055 /* localij.h */; };
 		63811E3223F4920500F3B055 /* algos.h in Headers */ = {isa = PBXBuildFile; fileRef = 63811E0F23F4920500F3B055 /* algos.h */; };
-		63811E3323F4920500F3B055 /* h3api.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 63811E1023F4920500F3B055 /* h3api.h.in */; };
-		63811E3423F4920500F3B055 /* h3api.h in Headers */ = {isa = PBXBuildFile; fileRef = 63811E1123F4920500F3B055 /* h3api.h */; };
+		63811E3423F4920500F3B055 /* h3api.h in Headers */ = {isa = PBXBuildFile; fileRef = 63811E1123F4920500F3B055 /* h3api.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63811E3523F4920500F3B055 /* algos.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1323F4920500F3B055 /* algos.c */; };
 		63811E3623F4920500F3B055 /* localij.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1423F4920500F3B055 /* localij.c */; };
 		63811E3723F4920500F3B055 /* coordijk.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1523F4920500F3B055 /* coordijk.c */; };
@@ -41,13 +40,69 @@
 		63811E4123F4920500F3B055 /* vertexGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1F23F4920500F3B055 /* vertexGraph.c */; };
 		63811E4223F4920500F3B055 /* faceijk.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E2023F4920500F3B055 /* faceijk.c */; };
 		63811E4323F4920500F3B055 /* baseCells.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E2123F4920500F3B055 /* baseCells.c */; };
+		63811E7423F4993400F3B055 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63811E7323F4993400F3B055 /* main.swift */; };
+		63811E9823F499B800F3B055 /* algos.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1323F4920500F3B055 /* algos.c */; };
+		63811E9923F499B800F3B055 /* localij.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1423F4920500F3B055 /* localij.c */; };
+		63811E9A23F499B800F3B055 /* coordijk.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1523F4920500F3B055 /* coordijk.c */; };
+		63811E9B23F499B800F3B055 /* polygon.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1623F4920500F3B055 /* polygon.c */; };
+		63811E9C23F499B800F3B055 /* bbox.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1723F4920500F3B055 /* bbox.c */; };
+		63811E9D23F499B800F3B055 /* h3Index.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1823F4920500F3B055 /* h3Index.c */; };
+		63811E9E23F499B800F3B055 /* vec2d.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1923F4920500F3B055 /* vec2d.c */; };
+		63811E9F23F499B800F3B055 /* linkedGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1A23F4920500F3B055 /* linkedGeo.c */; };
+		63811EA023F499B800F3B055 /* geoCoord.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1B23F4920500F3B055 /* geoCoord.c */; };
+		63811EA123F499B800F3B055 /* h3UniEdge.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1C23F4920500F3B055 /* h3UniEdge.c */; };
+		63811EA223F499B800F3B055 /* mathExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1D23F4920500F3B055 /* mathExtensions.c */; };
+		63811EA323F499B800F3B055 /* vec3d.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1E23F4920500F3B055 /* vec3d.c */; };
+		63811EA423F499B800F3B055 /* vertexGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E1F23F4920500F3B055 /* vertexGraph.c */; };
+		63811EA523F499B800F3B055 /* faceijk.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E2023F4920500F3B055 /* faceijk.c */; };
+		63811EA623F499B800F3B055 /* baseCells.c in Sources */ = {isa = PBXBuildFile; fileRef = 63811E2123F4920500F3B055 /* baseCells.c */; };
+		63811EA723F499E900F3B055 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
+		63811EA823F499E900F3B055 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008120303A2B000C2FD2 /* LICENSE */; };
+		63811EA923F499E900F3B055 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008220303A2B000C2FD2 /* README.md */; };
+		63811EAA23F499E900F3B055 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012820303A2B000C2FD2 /* VERSION */; };
+		63811EAB23F49AA600F3B055 /* h3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E8023F4998B00F3B055 /* h3.framework */; };
+		63811EAC23F49AA600F3B055 /* h3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E8023F4998B00F3B055 /* h3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63811EB023F49AF300F3B055 /* h3api.h in Headers */ = {isa = PBXBuildFile; fileRef = 63811E1123F4920500F3B055 /* h3api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63811EB123F49B0500F3B055 /* h3_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B83EC2027C04900D116BA /* h3_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD4B83EE2027C04900D116BA /* h3_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B83EC2027C04900D116BA /* h3_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB917112030CCBD007CFF0B /* h3-swift.swift */; };
 		ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
 		ADEA014920303A2B000C2FD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008120303A2B000C2FD2 /* LICENSE */; };
 		ADEA014A20303A2B000C2FD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008220303A2B000C2FD2 /* README.md */; };
 		ADEA01E120303A2B000C2FD2 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012820303A2B000C2FD2 /* VERSION */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63811EAD23F49AA600F3B055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD4B83E02027C04800D116BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63811E7F23F4998B00F3B055;
+			remoteInfo = "h3-swift mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63811E6923F4991000F3B055 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		63811EAF23F49AA600F3B055 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63811EAC23F49AA600F3B055 /* h3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		63811DFF23F4920500F3B055 /* bbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbox.h; sourceTree = "<group>"; };
@@ -84,11 +139,13 @@
 		63811E1F23F4920500F3B055 /* vertexGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vertexGraph.c; sourceTree = "<group>"; };
 		63811E2023F4920500F3B055 /* faceijk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = faceijk.c; sourceTree = "<group>"; };
 		63811E2123F4920500F3B055 /* baseCells.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = baseCells.c; sourceTree = "<group>"; };
+		63811E6B23F4991000F3B055 /* test app */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63811E7323F4993400F3B055 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "h3-swift-test/h3-swift-test/main.swift"; sourceTree = SOURCE_ROOT; };
+		63811E8023F4998B00F3B055 /* h3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = h3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63811EB223F49BB000F3B055 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		AD4B83E92027C04800D116BA /* h3_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = h3_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4B83EC2027C04900D116BA /* h3_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h3_swift.h; sourceTree = "<group>"; };
 		AD4B83ED2027C04900D116BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD71F4F02030DE4900B92D8E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		ADB917112030CCBD007CFF0B /* h3-swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "h3-swift.swift"; sourceTree = "<group>"; };
 		ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		ADEA008120303A2B000C2FD2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ADEA008220303A2B000C2FD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -96,6 +153,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		63811E6823F4991000F3B055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811EAB23F49AA600F3B055 /* h3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63811E7D23F4998B00F3B055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD4B83E52027C04800D116BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,13 +226,30 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		63811E7223F4992400F3B055 /* h3-test-app */ = {
+			isa = PBXGroup;
+			children = (
+				63811E7323F4993400F3B055 /* main.swift */,
+			);
+			path = "h3-test-app";
+			sourceTree = "<group>";
+		};
+		63811E7523F4994100F3B055 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD4B83DF2027C04800D116BA = {
 			isa = PBXGroup;
 			children = (
-				AD71F4F02030DE4900B92D8E /* module.modulemap */,
+				63811EB223F49BB000F3B055 /* module.modulemap */,
+				63811E7223F4992400F3B055 /* h3-test-app */,
 				ADEA005B20303A2B000C2FD2 /* h3 */,
 				AD4B83EB2027C04800D116BA /* h3-swift */,
 				AD4B83EA2027C04800D116BA /* Products */,
+				63811E7523F4994100F3B055 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				AD4B83E92027C04800D116BA /* h3_swift.framework */,
+				63811E6B23F4991000F3B055 /* test app */,
+				63811E8023F4998B00F3B055 /* h3.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,7 +266,6 @@
 		AD4B83EB2027C04800D116BA /* h3-swift */ = {
 			isa = PBXGroup;
 			children = (
-				ADB917112030CCBD007CFF0B /* h3-swift.swift */,
 				AD4B83EC2027C04900D116BA /* h3_swift.h */,
 				AD4B83ED2027C04900D116BA /* Info.plist */,
 			);
@@ -214,6 +304,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		63811E7B23F4998B00F3B055 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811EB023F49AF300F3B055 /* h3api.h in Headers */,
+				63811EB123F49B0500F3B055 /* h3_swift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD4B83E62027C04800D116BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,6 +342,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		63811E6A23F4991000F3B055 /* test app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63811E6F23F4991000F3B055 /* Build configuration list for PBXNativeTarget "test app" */;
+			buildPhases = (
+				63811E6723F4991000F3B055 /* Sources */,
+				63811E6823F4991000F3B055 /* Frameworks */,
+				63811E6923F4991000F3B055 /* CopyFiles */,
+				63811EAF23F49AA600F3B055 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63811EAE23F49AA600F3B055 /* PBXTargetDependency */,
+			);
+			name = "test app";
+			productName = "test app";
+			productReference = 63811E6B23F4991000F3B055 /* test app */;
+			productType = "com.apple.product-type.tool";
+		};
+		63811E7F23F4998B00F3B055 /* h3-swift mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63811E9123F4998B00F3B055 /* Build configuration list for PBXNativeTarget "h3-swift mac" */;
+			buildPhases = (
+				63811E9723F499A500F3B055 /* ShellScript */,
+				63811E7B23F4998B00F3B055 /* Headers */,
+				63811E7C23F4998B00F3B055 /* Sources */,
+				63811E7D23F4998B00F3B055 /* Frameworks */,
+				63811E7E23F4998B00F3B055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "h3-swift mac";
+			productName = "h3-swift mac";
+			productReference = 63811E8023F4998B00F3B055 /* h3.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		AD4B83E82027C04800D116BA /* h3-swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4B83F12027C04900D116BA /* Build configuration list for PBXNativeTarget "h3-swift" */;
@@ -268,9 +405,18 @@
 		AD4B83E02027C04800D116BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "David Van Duzer";
 				TargetAttributes = {
+					63811E6A23F4991000F3B055 = {
+						CreatedOnToolsVersion = 11.4;
+						ProvisioningStyle = Automatic;
+					};
+					63811E7F23F4998B00F3B055 = {
+						CreatedOnToolsVersion = 11.4;
+						ProvisioningStyle = Automatic;
+					};
 					AD4B83E82027C04800D116BA = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1140;
@@ -292,17 +438,29 @@
 			projectRoot = "";
 			targets = (
 				AD4B83E82027C04800D116BA /* h3-swift */,
+				63811E6A23F4991000F3B055 /* test app */,
+				63811E7F23F4998B00F3B055 /* h3-swift mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		63811E7E23F4998B00F3B055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811EA723F499E900F3B055 /* CHANGELOG.md in Resources */,
+				63811EA823F499E900F3B055 /* LICENSE in Resources */,
+				63811EA923F499E900F3B055 /* README.md in Resources */,
+				63811EAA23F499E900F3B055 /* VERSION in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD4B83E72027C04800D116BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ADEA014920303A2B000C2FD2 /* LICENSE in Resources */,
-				63811E3323F4920500F3B055 /* h3api.h.in in Resources */,
 				ADEA01E120303A2B000C2FD2 /* VERSION in Resources */,
 				ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */,
 				ADEA014A20303A2B000C2FD2 /* README.md in Resources */,
@@ -329,9 +487,56 @@
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd h3\ncmake .\n";
 		};
+		63811E9723F499A500F3B055 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd h3\ncmake .\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		63811E6723F4991000F3B055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E7423F4993400F3B055 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63811E7C23F4998B00F3B055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63811E9C23F499B800F3B055 /* bbox.c in Sources */,
+				63811EA623F499B800F3B055 /* baseCells.c in Sources */,
+				63811E9A23F499B800F3B055 /* coordijk.c in Sources */,
+				63811EA123F499B800F3B055 /* h3UniEdge.c in Sources */,
+				63811E9E23F499B800F3B055 /* vec2d.c in Sources */,
+				63811E9923F499B800F3B055 /* localij.c in Sources */,
+				63811EA023F499B800F3B055 /* geoCoord.c in Sources */,
+				63811E9D23F499B800F3B055 /* h3Index.c in Sources */,
+				63811E9B23F499B800F3B055 /* polygon.c in Sources */,
+				63811E9F23F499B800F3B055 /* linkedGeo.c in Sources */,
+				63811EA523F499B800F3B055 /* faceijk.c in Sources */,
+				63811EA323F499B800F3B055 /* vec3d.c in Sources */,
+				63811E9823F499B800F3B055 /* algos.c in Sources */,
+				63811EA223F499B800F3B055 /* mathExtensions.c in Sources */,
+				63811EA423F499B800F3B055 /* vertexGraph.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD4B83E42027C04800D116BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,21 +556,117 @@
 				63811E3E23F4920500F3B055 /* h3UniEdge.c in Sources */,
 				63811E3D23F4920500F3B055 /* geoCoord.c in Sources */,
 				63811E3923F4920500F3B055 /* bbox.c in Sources */,
-				ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		63811EAE23F49AA600F3B055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63811E7F23F4998B00F3B055 /* h3-swift mac */;
+			targetProxy = 63811EAD23F49AA600F3B055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		63811E7023F4991000F3B055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN72BUXZ3W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.alksol.h3.test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63811E7123F4991000F3B055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YN72BUXZ3W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.alksol.h3.test-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63811E9223F4998B00F3B055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YN72BUXZ3W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "h3-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = module.modulemap;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.alksol.h3.h3-swift-mac";
+				PRODUCT_MODULE_NAME = h3;
+				PRODUCT_NAME = h3;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63811E9323F4998B00F3B055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YN72BUXZ3W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "h3-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = module.modulemap;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.alksol.h3.h3-swift-mac";
+				PRODUCT_MODULE_NAME = h3;
+				PRODUCT_NAME = h3;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		AD4B83EF2027C04900D116BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -374,7 +675,6 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -389,14 +689,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -409,25 +706,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 		AD4B83F02027C04900D116BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -436,7 +728,6 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -451,13 +742,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -465,23 +754,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		AD4B83F22027C04900D116BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YN72BUXZ3W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -490,7 +779,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "${SRCROOT}/h3/src/h3lib/lib";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.scupper.h3-swift";
+				MODULE_NAME = h3_swift;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.alksol.h3.h3-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
@@ -503,10 +793,12 @@
 		AD4B83F32027C04900D116BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YN72BUXZ3W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -515,7 +807,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "${SRCROOT}/h3/src/h3lib/lib";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.scupper.h3-swift";
+				MODULE_NAME = h3_swift;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.alksol.h3.h3-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
@@ -527,6 +820,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		63811E6F23F4991000F3B055 /* Build configuration list for PBXNativeTarget "test app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63811E7023F4991000F3B055 /* Debug */,
+				63811E7123F4991000F3B055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63811E9123F4998B00F3B055 /* Build configuration list for PBXNativeTarget "h3-swift mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63811E9223F4998B00F3B055 /* Debug */,
+				63811E9323F4998B00F3B055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AD4B83E32027C04800D116BA /* Build configuration list for PBXProject "h3-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
