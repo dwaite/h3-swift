@@ -64,6 +64,8 @@
 		63811EAC23F49AA600F3B055 /* h3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63811E8023F4998B00F3B055 /* h3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63811EB023F49AF300F3B055 /* h3api.h in Headers */ = {isa = PBXBuildFile; fileRef = 63811E1123F4920500F3B055 /* h3api.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63811EB123F49B0500F3B055 /* h3_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B83EC2027C04900D116BA /* h3_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63DCAC2E23F7A7A400907800 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCAC2D23F7A78000907800 /* Extensions.swift */; };
+		63DCAC2F23F7A7A400907800 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCAC2D23F7A78000907800 /* Extensions.swift */; };
 		AD4B83EE2027C04900D116BA /* h3_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B83EC2027C04900D116BA /* h3_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
 		ADEA014920303A2B000C2FD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008120303A2B000C2FD2 /* LICENSE */; };
@@ -143,6 +145,7 @@
 		63811E7323F4993400F3B055 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "h3-swift-test/h3-swift-test/main.swift"; sourceTree = SOURCE_ROOT; };
 		63811E8023F4998B00F3B055 /* h3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = h3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63811EB223F49BB000F3B055 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		63DCAC2D23F7A78000907800 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "h3-swift/Extensions.swift"; sourceTree = SOURCE_ROOT; };
 		AD4B83E92027C04800D116BA /* h3_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = h3_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4B83EC2027C04900D116BA /* h3_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h3_swift.h; sourceTree = "<group>"; };
 		AD4B83ED2027C04900D116BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -266,6 +269,7 @@
 		AD4B83EB2027C04800D116BA /* h3-swift */ = {
 			isa = PBXGroup;
 			children = (
+				63DCAC2D23F7A78000907800 /* Extensions.swift */,
 				AD4B83EC2027C04900D116BA /* h3_swift.h */,
 				AD4B83ED2027C04900D116BA /* Info.plist */,
 			);
@@ -530,6 +534,7 @@
 				63811E9B23F499B800F3B055 /* polygon.c in Sources */,
 				63811E9F23F499B800F3B055 /* linkedGeo.c in Sources */,
 				63811EA523F499B800F3B055 /* faceijk.c in Sources */,
+				63DCAC2F23F7A7A400907800 /* Extensions.swift in Sources */,
 				63811EA323F499B800F3B055 /* vec3d.c in Sources */,
 				63811E9823F499B800F3B055 /* algos.c in Sources */,
 				63811EA223F499B800F3B055 /* mathExtensions.c in Sources */,
@@ -552,6 +557,7 @@
 				63811E3C23F4920500F3B055 /* linkedGeo.c in Sources */,
 				63811E4123F4920500F3B055 /* vertexGraph.c in Sources */,
 				63811E4323F4920500F3B055 /* baseCells.c in Sources */,
+				63DCAC2E23F7A7A400907800 /* Extensions.swift in Sources */,
 				63811E3A23F4920500F3B055 /* h3Index.c in Sources */,
 				63811E3E23F4920500F3B055 /* h3UniEdge.c in Sources */,
 				63811E3D23F4920500F3B055 /* geoCoord.c in Sources */,
